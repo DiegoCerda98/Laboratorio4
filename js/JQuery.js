@@ -15,4 +15,4 @@ $(".container").on("click",".checar", function(e){
 $(".container").on("click", ".del", function(e){
     e.preventDefault();
     $(this).parent().remove();
-})
+});
